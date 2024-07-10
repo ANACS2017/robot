@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.4 on win32)" generated="2024-07-09T11:01:48.762429" rpa="false" schemaversion="5">
+<suite id="s1" name="Teste1" source="C:\ROBOT\teste1.robot">
+<test id="s1-t1" name="Exemplo de Teste" line="12">
+<kw name="Acessar a pagina soulmv" owner="resource">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-09T11:01:49.134039" level="INFO">Opening browser 'Chrome' to base url 'https://soulmv.com.br'.</msg>
+<msg time="2024-07-09T11:01:52.006941" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-07-09T11:01:52.007994" level="FAIL">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB55EEA2+31554]
+	(No symbol) [0x00007FF7FB4D7ED9]
+	(No symbol) [0x00007FF7FB39872A]
+	(No symbol) [0x00007FF7FB390782]
+	(No symbol) [0x00007FF7FB381294]
+	(No symbol) [0x00007FF7FB382B02]
+	(No symbol) [0x00007FF7FB3815C1]
+	(No symbol) [0x00007FF7FB380DA1]
+	(No symbol) [0x00007FF7FB380CE0]
+	(No symbol) [0x00007FF7FB37EC6D]
+	(No symbol) [0x00007FF7FB37F2AC]
+	(No symbol) [0x00007FF7FB39B501]
+	(No symbol) [0x00007FF7FB42D33E]
+	(No symbol) [0x00007FF7FB40D02A]
+	(No symbol) [0x00007FF7FB42C977]
+	(No symbol) [0x00007FF7FB40CDD3]
+	(No symbol) [0x00007FF7FB3DA33B]
+	(No symbol) [0x00007FF7FB3DAED1]
+	GetHandleVerifier [0x00007FF7FB868B1D+3217341]
+	GetHandleVerifier [0x00007FF7FB8B5AE3+3532675]
+	GetHandleVerifier [0x00007FF7FB8AB0E0+3489152]
+	GetHandleVerifier [0x00007FF7FB60E776+750614]
+	(No symbol) [0x00007FF7FB4E375F]
+	(No symbol) [0x00007FF7FB4DEB14]
+	(No symbol) [0x00007FF7FB4DECA2]
+	(No symbol) [0x00007FF7FB4CE16F]
+	BaseThreadInitThunk [0x00007FF813257344+20]
+	RtlUserThreadStart [0x00007FF8135FCC91+33]
+</msg>
+<arg>${URL}</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-07-09T11:01:49.133042" elapsed="2.880854">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB55EEA2+31554]
+	(No symbol) [0x00007FF7FB4D7ED9]
+	(No symbol) [0x00007FF7FB39872A]
+	(No symbol) [0x00007FF7FB390782]
+	(No symbol) [0x00007FF7FB381294]
+	(No symbol) [0x00007FF7FB382B02]
+	(No symbol) [0x00007FF7FB3815C1]
+	(No symbol) [0x00007FF7FB380DA1]
+	(No symbol) [0x00007FF7FB380CE0]
+	(No symbol) [0x00007FF7FB37EC6D]
+	(No symbol) [0x00007FF7FB37F2AC]
+	(No symbol) [0x00007FF7FB39B501]
+	(No symbol) [0x00007FF7FB42D33E]
+	(No symbol) [0x00007FF7FB40D02A]
+	(No symbol) [0x00007FF7FB42C977]
+	(No symbol) [0x00007FF7FB40CDD3]
+	(No symbol) [0x00007FF7FB3DA33B]
+	(No symbol) [0x00007FF7FB3DAED1]
+	GetHandleVerifier [0x00007FF7FB868B1D+3217341]
+	GetHandleVerifier [0x00007FF7FB8B5AE3+3532675]
+	GetHandleVerifier [0x00007FF7FB8AB0E0+3489152]
+	GetHandleVerifier [0x00007FF7FB60E776+750614]
+	(No symbol) [0x00007FF7FB4E375F]
+	(No symbol) [0x00007FF7FB4DEB14]
+	(No symbol) [0x00007FF7FB4DECA2]
+	(No symbol) [0x00007FF7FB4CE16F]
+	BaseThreadInitThunk [0x00007FF813257344+20]
+	RtlUserThreadStart [0x00007FF8135FCC91+33]
+</status>
+</kw>
+<status status="FAIL" start="2024-07-09T11:01:49.132044" elapsed="2.881852">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB55EEA2+31554]
+	(No symbol) [0x00007FF7FB4D7ED9]
+	(No symbol) [0x00007FF7FB39872A]
+	(No symbol) [0x00007FF7FB390782]
+	(No symbol) [0x00007FF7FB381294]
+	(No symbol) [0x00007FF7FB382B02]
+	(No symbol) [0x00007FF7FB3815C1]
+	(No symbol) [0x00007FF7FB380DA1]
+	(No symbol) [0x00007FF7FB380CE0]
+	(No symbol) [0x00007FF7FB37EC6D]
+	(No symbol) [0x00007FF7FB37F2AC]
+	(No symbol) [0x00007FF7FB39B501]
+	(No symbol) [0x00007FF7FB42D33E]
+	(No symbol) [0x00007FF7FB40D02A]
+	(No symbol) [0x00007FF7FB42C977]
+	(No symbol) [0x00007FF7FB40CDD3]
+	(No symbol) [0x00007FF7FB3DA33B]
+	(No symbol) [0x00007FF7FB3DAED1]
+	GetHandleVerifier [0x00007FF7FB868B1D+3217341]
+	GetHandleVerifier [0x00007FF7FB8B5AE3+3532675]
+	GetHandleVerifier [0x00007FF7FB8AB0E0+3489152]
+	GetHandleVerifier [0x00007FF7FB60E776+750614]
+	(No symbol) [0x00007FF7FB4E375F]
+	(No symbol) [0x00007FF7FB4DEB14]
+	(No symbol) [0x00007FF7FB4DECA2]
+	(No symbol) [0x00007FF7FB4CE16F]
+	BaseThreadInitThunk [0x00007FF813257344+20]
+	RtlUserThreadStart [0x00007FF8135FCC91+33]
+</status>
+</kw>
+<kw name="Clicar no campo Usuário" owner="resource">
+<status status="NOT RUN" start="2024-07-09T11:01:52.014892" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar no campo senha" owner="resource">
+<status status="NOT RUN" start="2024-07-09T11:01:52.015889" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar no campo empresa" owner="resource">
+<status status="NOT RUN" start="2024-07-09T11:01:52.017018" elapsed="0.000063"/>
+</kw>
+<kw name="Clicar no botão Login" owner="resource">
+<status status="NOT RUN" start="2024-07-09T11:01:52.017240" elapsed="0.000000"/>
+</kw>
+<kw name="Sistema deverá abrir" owner="resource">
+<status status="NOT RUN" start="2024-07-09T11:01:52.018237" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-09T11:01:49.131281" elapsed="2.886956">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7FB55EEA2+31554]
+	(No symbol) [0x00007FF7FB4D7ED9]
+	(No symbol) [0x00007FF7FB39872A]
+	(No symbol) [0x00007FF7FB390782]
+	(No symbol) [0x00007FF7FB381294]
+	(No symbol) [0x00007FF7FB382B02]
+	(No symbol) [0x00007FF7FB3815C1]
+	(No symbol) [0x00007FF7FB380DA1]
+	(No symbol) [0x00007FF7FB380CE0]
+	(No symbol) [0x00007FF7FB37EC6D]
+	(No symbol) [0x00007FF7FB37F2AC]
+	(No symbol) [0x00007FF7FB39B501]
+	(No symbol) [0x00007FF7FB42D33E]
+	(No symbol) [0x00007FF7FB40D02A]
+	(No symbol) [0x00007FF7FB42C977]
+	(No symbol) [0x00007FF7FB40CDD3]
+	(No symbol) [0x00007FF7FB3DA33B]
+	(No symbol) [0x00007FF7FB3DAED1]
+	GetHandleVerifier [0x00007FF7FB868B1D+3217341]
+	GetHandleVerifier [0x00007FF7FB8B5AE3+3532675]
+	GetHandleVerifier [0x00007FF7FB8AB0E0+3489152]
+	GetHandleVerifier [0x00007FF7FB60E776+750614]
+	(No symbol) [0x00007FF7FB4E375F]
+	(No symbol) [0x00007FF7FB4DEB14]
+	(No symbol) [0x00007FF7FB4DECA2]
+	(No symbol) [0x00007FF7FB4CE16F]
+	BaseThreadInitThunk [0x00007FF813257344+20]
+	RtlUserThreadStart [0x00007FF8135FCC91+33]
+</status>
+</test>
+<status status="FAIL" start="2024-07-09T11:01:48.764676" elapsed="3.264258"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Teste1">Teste1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
